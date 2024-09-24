@@ -1,24 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import LoginPage from "./pages/LoginPage";
+import SearchPage from "./pages/SearchPage";
+import MatchPage from "./pages/MatchPage";
+import ProtectedRoute from "./components/ProtectedRoute";
+import { FavoritesProvider } from "./context/FavoritesContext";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <FavoritesProvider>
+      <Router>
+        <Routes>
+          <Route path="/" element={<LoginPage />} />
+          <Route
+            path="/search"
+            element={
+              <ProtectedRoute>
+                <SearchPage />
+              </ProtectedRoute>
+            }
+          />
+          <Route
+            path="/match"
+            element={
+              <ProtectedRoute>
+                <MatchPage />
+              </ProtectedRoute>
+            }
+          />
+        </Routes>
+      </Router>
+    </FavoritesProvider>
   );
 }
 
