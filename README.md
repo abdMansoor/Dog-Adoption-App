@@ -6,21 +6,6 @@ A React-based web application designed to help users find and adopt their perfec
 
 ![Dog Adoption App Screenshot](./screenshots/screenshot.png)
 
-## 📋 Table of Contents
-
-- [🐾 Dog Adoption App](#🐾-dog-adoption-app)
-  - [📋 Table of Contents](#📋-table-of-contents)
-  - [🔍 Features](#🔍-features)
-  - [🚀 Live Demo](#🚀-live-demo)
-  - [🛠️ Technologies Used](#🛠️-technologies-used)
-  - [📥 Installation](#📥-installation)
-  - [💻 Usage](#💻-usage)
-  - [🧪 Testing](#🧪-testing)
-  - [📈 Deployment](#📈-deployment)
-  - [🤝 Contributing](#🤝-contributing)
-  - [📄 License](#📄-license)
-  - [📫 Contact](#📫-contact)
-
 ## 🔍 Features
 
 - **User Authentication**: Secure login and logout functionality.
@@ -28,14 +13,6 @@ A React-based web application designed to help users find and adopt their perfec
 - **Favorites**: Save your favorite dogs for easy access.
 - **Adoption Match**: Generate a personalized adoption match based on your favorites.
 - **Responsive Design**: Fully responsive and mobile-friendly interface.
-
-## 🚀 Live Demo
-
-Experience the Dog Adoption App live!
-
-[![Netlify Status](https://api.netlify.com/api/v1/badges/your-netlify-badge/deploy-status)](https://your-netlify-deployment-url.netlify.app)
-
-👉 [Visit Live Demo](https://your-netlify-deployment-url.netlify.app)
 
 ## 🛠️ Technologies Used
 
