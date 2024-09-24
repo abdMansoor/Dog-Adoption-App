@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/dog-adoption-app/static/css/main.a619fc1a.css",
+    "main.js": "/dog-adoption-app/static/js/main.34d0a772.js",
+    "index.html": "/dog-adoption-app/index.html",
+    "main.a619fc1a.css.map": "/dog-adoption-app/static/css/main.a619fc1a.css.map",
+    "main.34d0a772.js.map": "/dog-adoption-app/static/js/main.34d0a772.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a619fc1a.css",
+    "static/js/main.34d0a772.js"
+  ]
+}
