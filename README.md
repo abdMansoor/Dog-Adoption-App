@@ -4,8 +4,6 @@ Welcome to the **Dog Adoption App**! 🐶✨
 
 A React-based web application designed to help users find and adopt their perfect furry friends. Whether you're looking to add a playful puppy to your family or a calm companion, our app makes the search easy and enjoyable.
 
-![Dog Adoption App Screenshot](./screenshots/screenshot.png)
-
 ## 🔍 Features
 
 - **User Authentication**: Secure login and logout functionality.
